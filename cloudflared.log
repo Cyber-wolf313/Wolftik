@@ -1,0 +1,27 @@
+2024-09-18T10:22:18Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2024-09-18T10:22:18Z INF Requesting new quick Tunnel on trycloudflare.com...
+2024-09-18T10:22:24Z INF +--------------------------------------------------------------------------------------------+
+2024-09-18T10:22:24Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2024-09-18T10:22:24Z INF |  https://rpm-jose-pn-moments.trycloudflare.com                                             |
+2024-09-18T10:22:24Z INF +--------------------------------------------------------------------------------------------+
+2024-09-18T10:22:24Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
+2024-09-18T10:22:24Z INF Version 2024.9.1
+2024-09-18T10:22:24Z INF GOOS: android, GOVersion: go1.23.0, GoArch: arm64
+2024-09-18T10:22:24Z INF Settings: map[ha-connections:1 protocol:quic url:http://127.0.0.1:8083]
+2024-09-18T10:22:24Z INF Autoupdate frequency is set autoupdateFreq=86400000
+2024-09-18T10:22:24Z INF Generated Connector ID: 3b59c377-ce65-4095-bbf6-bdd52870990b
+2024-09-18T10:22:25Z INF Initial protocol quic
+2024-09-18T10:22:25Z INF ICMP proxy will use 192.168.47.25 as source for IPv4
+2024-09-18T10:22:26Z INF ICMP proxy will use fe80::40e0:3eff:fea9:c34d in zone wlan0 as source for IPv6
+2024-09-18T10:22:26Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="open /proc/sys/net/ipv4/ping_group_range: permission denied"
+2024-09-18T10:22:27Z ERR update check failed error="no release found"
+2024-09-18T10:22:31Z INF Starting metrics server on 127.0.0.1:42051/metrics
+2024-09-18T10:22:33Z INF Registered tunnel connection connIndex=0 connection=62029a90-5294-4f1d-94dc-434bb86855b5 event=0 ip=198.41.192.57 location=khi02 protocol=quic
+2024-09-18T10:26:26Z INF Initiating graceful shutdown due to signal interrupt ...
+2024-09-18T10:26:35Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.41.192.57
+2024-09-18T10:26:35Z ERR Failed to serve quic connection error="Application error 0x0 (remote)" connIndex=0 event=0 ip=198.41.192.57
+2024-09-18T10:26:35Z ERR Serve tunnel error error="Application error 0x0 (remote)" connIndex=0 event=0 ip=198.41.192.57
+2024-09-18T10:26:35Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.57
+2024-09-18T10:26:35Z ERR no more connections active and exiting
+2024-09-18T10:26:35Z INF Tunnel server stopped
+2024-09-18T10:26:35Z INF Metrics server stopped
